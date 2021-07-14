@@ -1,0 +1,83 @@
+@import "reset.css";
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body *, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background:linear-gradient(90deg, #FF69B4  15%, #87CEEB 80%);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px -3px 5px navy;
+    font: 1.3rem cursive;
+    position: relative;
+}
+
+nav{
+    width: 17%;
+    background: hotpink;
+    padding: 7px 5px;
+    font-size: 0.9rem;
+    color: white;
+    float: left;
+    min-height: 80vh;
+}
+
+main{
+    padding: 10px;
+    float: left;
+    width: 66%;
+}
+
+aside{
+    width: 17%;
+    background: skyblue;
+    padding: 7px 5px;
+    font-size: 0.9rem;
+    color: white;
+    float: right;
+    min-height: 80vh;
+}
+
+footer{
+    clear: both;
+    color: gray;
+
+}
+
+.nav-link{
+    color: white;
+}
+
+
+.ui-dialog{
+    left: 50%;
+    top: 150px;
+    transform: translateX(-50%);
+
+}
+
+#auctionLogo{
+    vertical-align: bottom;
+    width: 4rem;
+}
+
+@media screen and (max-width: 576px){
+    html{
+        font-size: 11px;
+    }
+}
+
+

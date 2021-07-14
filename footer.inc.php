@@ -1,0 +1,1 @@
+<p>&copy;PHP, MySQL, & JavaScript All-in-One For Dummies-For Dummies (2018) - <a href="https://nasimbd.github.io/Biography/" target="_blank">Nasim Baradaran</a> - Making auctions easier</p>
